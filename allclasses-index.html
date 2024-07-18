@@ -59,9 +59,15 @@ loadScripts(document, 'script');</script>
 <div class="summary-table two-column-summary" aria-labelledby="all-classes-table-tab0">
 <div class="table-header col-first">Class</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="model/Article.html" title="class in model">Article</a></div>
-<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="controller/AbstractController.html" title="class in controller">AbstractController</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="model/Article.html" title="class in model">Article</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">게시글 정보를 저장하는 클래스</div>
+</div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="controller/ArticleController.html" title="class in controller">ArticleController</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="block">게시글 관련 요청 처리</div>
 </div>
 <div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="handler/ArticleHandler.html" title="class in handler">ArticleHandler</a></div>
 <div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
@@ -75,35 +81,59 @@ loadScripts(document, 'script');</script>
 <div class="col-last odd-row-color all-classes-table all-classes-table-tab3">
 <div class="block">MIME 타입을 정의한 enum 클래스</div>
 </div>
-<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="db/Database.html" title="class in db">Database</a></div>
-<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="col-first even-row-color all-classes-table all-classes-table-tab1"><a href="controller/Controller.html" title="interface in controller">Controller</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab1">
+<div class="block">웹 서버로 들어온 요청을 처리하는 기본 컨트롤러 인터페이스</div>
+</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="db/Database.html" title="class in db">Database</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">Database에 접근하여 데이터를 처리하는 클래스</div>
+</div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="controller/DefaultController.html" title="class in controller">DefaultController</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="block">Default 페이지를 처리</div>
 </div>
 <div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="util/DynamicHtmlUtil.html" title="class in util">DynamicHtmlUtil</a></div>
 <div class="col-last odd-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
-<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="webserver/FrontRequestProcess.html" title="class in webserver">FrontRequestProcess</a></div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="controller/ErrorController.html" title="class in controller">ErrorController</a></div>
 <div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="block">Error를 처리하는 컨트롤러, Error을 구체적으로 판별하기 위해 mapper 객체를 내부 필드로 놓고 switch문으로 처리한다.</div>
+</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="webserver/FrontRequestProcess.html" title="class in webserver">FrontRequestProcess</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">요청을 처리하고 그에 맞는 응답을 생성하는 클래스</div>
 </div>
-<div class="col-first odd-row-color all-classes-table all-classes-table-tab3"><a href="util/HttpCode.html" title="enum class in util">HttpCode</a></div>
-<div class="col-last odd-row-color all-classes-table all-classes-table-tab3">
+<div class="col-first even-row-color all-classes-table all-classes-table-tab3"><a href="util/HttpCode.html" title="enum class in util">HttpCode</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab3">
 <div class="block">HTTP 응답 코드를 정의한 enum 클래스</div>
 </div>
-<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="util/HttpRequest.html" title="class in util">HttpRequest</a></div>
-<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="util/HttpRequest.html" title="class in util">HttpRequest</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">HTTP 요청에 대한 정보를 저장하는 클래스</div>
 </div>
-<div class="col-first odd-row-color all-classes-table all-classes-table-tab3"><a href="util/HttpRequestMapper.html" title="enum class in util">HttpRequestMapper</a></div>
-<div class="col-last odd-row-color all-classes-table all-classes-table-tab3">
+<div class="col-first even-row-color all-classes-table all-classes-table-tab3"><a href="util/HttpRequestMapper.html" title="enum class in util">HttpRequestMapper</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab3">
 <div class="block">요청에 대한 매핑을 담당하는 enum 클래스</div>
 </div>
-<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="util/HttpResponse.html" title="class in util">HttpResponse</a></div>
-<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="util/HttpResponse.html" title="class in util">HttpResponse</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">HTTP 응답에 대한 정보를 관리하는 클래스</div>
 </div>
-<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="util/IOUtil.html" title="class in util">IOUtil</a></div>
-<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="util/IOUtil.html" title="class in util">IOUtil</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
 <div class="block">파일 입출력 전용 유틸리티 클래스</div>
+</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="controller/LoginController.html" title="class in controller">LoginController</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
+<div class="block">로그인 관련 요청 처리</div>
+</div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="controller/LoginFailController.html" title="class in controller">LoginFailController</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="block">로그인 실패 관련 요청을 처리</div>
+</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="controller/LogoutController.html" title="class in controller">LogoutController</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
+<div class="block">로그아웃 요청을 처리</div>
 </div>
 <div class="col-first even-row-color all-classes-table all-classes-table-tab5"><a href="exception/ModelException.html" title="class in exception">ModelException</a></div>
 <div class="col-last even-row-color all-classes-table all-classes-table-tab5">
@@ -132,6 +162,14 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color all-classes-table all-classes-table-tab2">
 <div class="block">Session 객체를 관리하는 Handler</div>
 </div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="controller/SignUpController.html" title="class in controller">SignUpController</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
+<div class="block">회원가입 요청을 처리</div>
+</div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="util/StringParser.html" title="class in util">StringParser</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">
+<div class="block">문자열을 파싱하는 클래스</div>
+</div>
 <div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="model/User.html" title="class in model">User</a></div>
 <div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
 <div class="block">사용자 정보를 저장하는 클래스</div>
@@ -140,8 +178,12 @@ loadScripts(document, 'script');</script>
 <div class="col-last even-row-color all-classes-table all-classes-table-tab2">
 <div class="block">User 객체를 관리하는 Handler</div>
 </div>
-<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="webserver/WebServer.html" title="class in webserver">WebServer</a></div>
-<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
+<div class="col-first odd-row-color all-classes-table all-classes-table-tab2"><a href="controller/UserListController.html" title="class in controller">UserListController</a></div>
+<div class="col-last odd-row-color all-classes-table all-classes-table-tab2">
+<div class="block">유저 리스트 요청 처리</div>
+</div>
+<div class="col-first even-row-color all-classes-table all-classes-table-tab2"><a href="webserver/WebServer.html" title="class in webserver">WebServer</a></div>
+<div class="col-last even-row-color all-classes-table all-classes-table-tab2">&nbsp;</div>
 </div>
 </div>
 </div>

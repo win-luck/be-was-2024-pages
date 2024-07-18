@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"db"},{"l":"exception"},{"l":"handler"},{"l":"model"},{"l":"session"},{"l":"util"},{"l":"webserver"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"controller"},{"l":"db"},{"l":"exception"},{"l":"handler"},{"l":"model"},{"l":"session"},{"l":"util"},{"l":"webserver"}];updateSearchResults();
